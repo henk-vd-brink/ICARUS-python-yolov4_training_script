@@ -20,7 +20,7 @@ cd app
 
 ## Structure
 ```
-.
+app
 ├── data
 │   └── american_signlanguage
 │       ├── README.dataset.txt
