@@ -19,6 +19,7 @@ cd app
 ```
 
 ## Structure
+```
 .
 ├── data
 │   └── american_signlanguage
