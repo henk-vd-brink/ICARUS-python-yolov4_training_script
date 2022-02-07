@@ -1,11 +1,24 @@
-# python-yolov4-app
+## About the Project
+This repository contains a script to train a YoloV4 model using Pytorch.
 
-cd app
+## Getting Started
 
-./scripts/train.sh
+### Prerequisites
+- CUDA
 
-
+### Installation
 ```
+git clone https://github.com/henk-vd-brink/python-ml-yolov4_training.git
+cd python-ml-yolov4_training
+```
+
+### Run
+```
+cd app
+./scripts/train.sh
+```
+
+## Structure
 .
 ├── data
 │   └── american_signlanguage
@@ -20,8 +33,7 @@ cd app
 │       │   ├── A0_jpg.rf.292a080422ba984985192f413101af41.jpg
 │       │   ├── Z8_jpg.rf.81357aeb1a89b914fc16d5a0418db9ff.jpg
 │       │   ├── _annotations.txt
-│       │   ├── _classes.txt
-│       │   └── train.txt
+│       │   └── _classes.txt
 │       └── valid
 │           ├── A10_jpg.rf.470b1af0feaa190a2d29fcafd6fe747d.jpg
 │           ├── A14_jpg.rf.392d1ac7f954c7a26a3bf99762e281e3.jpg
@@ -29,10 +41,6 @@ cd app
 │           └── _classes.txt
 ├── models
 ├── pytorch
-│   ├── __pycache__
-│   │   ├── dataset.cpython-38.pyc
-│   │   ├── model.cpython-38.pyc
-│   │   └── train.cpython-38.pyc
 │   ├── dataset.py
 │   ├── logs
 │   ├── model.py
@@ -40,7 +48,4 @@ cd app
 ├── scripts
 │   └── train.sh
 └── tree.txt
-
-10 directories, 1745 files
-
 ```
