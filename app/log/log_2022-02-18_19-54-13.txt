@@ -1,0 +1,17 @@
+2022-02-18 19:54:13,500 train.py[line:440] INFO: Using device cpu
+2022-02-18 19:54:14,282 train.py[line:282] INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Subdivisions:    1
+        Learning rate:   0.001
+        Training size:   70
+        Validation size: 20
+        Checkpoints:     True
+        Device:          cpu
+        Images size:     608
+        Optimizer:       adam
+        Dataset classes: 26
+        Train label path:data/hard_hats/train/_annotations.txt
+        Pretrained:
+    
+2022-02-18 19:54:16,530 train.py[line:455] INFO: Saved interrupt

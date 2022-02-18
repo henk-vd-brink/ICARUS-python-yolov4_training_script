@@ -1,0 +1,19 @@
+2021-12-28 13:11:07,899 train.py[line:435] INFO: Using device cpu
+2021-12-28 13:11:09,095 train.py[line:268] INFO: Starting training:
+        Epochs:          1
+        Batch size:      2
+        Subdivisions:    1
+        Learning rate:   0.001
+        Training size:   1512
+        Validation size: 144
+        Checkpoints:     True
+        Device:          cpu
+        Images size:     608
+        Optimizer:       adam
+        Dataset classes: 26
+        Train label path:data/american_signlanguage/train/_annotations.txt
+        Pretrained:
+    
+2021-12-28 13:16:28,198 train.py[line:348] INFO: Train step_20: loss : 32460.984375,loss xy : 5.025306224822998,loss wh : 0.19923433661460876,loss obj : 32419.7890625，loss cls : 35.97093200683594,loss l2 : 11775.4296875,lr : 1.6000000000000002e-10
+2021-12-28 13:21:30,819 train.py[line:348] INFO: Train step_40: loss : 32606.3515625,loss xy : 21.20256805419922,loss wh : 4.233633041381836,loss obj : 32435.884765625，loss cls : 145.03170776367188,loss l2 : 11818.3955078125,lr : 2.5600000000000003e-09
+2021-12-28 13:22:44,318 train.py[line:450] INFO: Saved interrupt

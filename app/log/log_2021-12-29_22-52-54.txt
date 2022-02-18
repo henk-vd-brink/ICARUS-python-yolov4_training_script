@@ -1,0 +1,17 @@
+2021-12-29 22:52:54,940 train.py[line:435] INFO: Using device cpu
+2021-12-29 22:52:56,103 train.py[line:268] INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Subdivisions:    1
+        Learning rate:   0.001
+        Training size:   1512
+        Validation size: 144
+        Checkpoints:     True
+        Device:          cpu
+        Images size:     608
+        Optimizer:       adam
+        Dataset classes: 26
+        Train label path:data/american_signlanguage/train/_annotations.txt
+        Pretrained:
+    
+2021-12-29 22:53:11,648 train.py[line:450] INFO: Saved interrupt
