@@ -1,1 +1,18 @@
-# python-yolov4-introduction
+## About the Project
+This repository contains code for a dockerized training script. Since all the correct CUDA and CUDNN versions are installed in the container, the script can run on almost any CUDA enabled machine.
+
+## Installation
+### Prerequisites 
+- Docker
+- GPU with CUDA (installation not necessary)
+
+### Build
+```
+git clone https://github.com/henk-vd-brink/ICARUS-python-yolov4_training_script.git
+cd ICARUS-python-yolov4_training_script
+```
+
+### Run
+```
+docker run --gpus all --shm-size 50G --privileged -d --name tr --device /dev/nvidia0:/dev/nvidia0 --device /dev/nvidiactl:/dev/nvidiactl --device /dev/nvidia-uvm:/dev/nvidia-uvm training-image
+```
