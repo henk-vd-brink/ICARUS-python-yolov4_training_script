@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATASET_NAME="hard_hats"
+DATASET_NAME="american_sign_language"
 
 python3 pytorch-YOLOv4/train.py -b 2 \
                                 -s 1 \
