@@ -29,9 +29,6 @@ RUN echo $(ls /code/app)
 
 RUN chmod 755 train.sh
 
-RUN apt-get update 
-RUN apt-get install -y nvidia-container-toolkit
-
 
 CMD ["./train.sh"]
 

@@ -11,4 +11,4 @@ python3 pytorch-YOLOv4/train.py -b 2 \
                                 -dir data/$DATASET_NAME/train \
                                 -train_label_path data/$DATASET_NAME/train/_annotations.txt \
 				-val_label_path data/$DATASET_NAME/valid/_annotations.txt \
-                                -epochs 10
+                                -epochs 100
